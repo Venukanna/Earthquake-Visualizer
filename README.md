@@ -13,7 +13,7 @@ The project was built for the user persona **Casey**, a Geography student, to un
 
 ---
 
-## 👤 User Persona
+## 👤 User Person
 - **Name:** Casey  
 - **Occupation:** Geography Student  
 - **Need:** Wants to visualize recent earthquake activity to study seismic patterns  
