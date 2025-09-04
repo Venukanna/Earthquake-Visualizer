@@ -1,0 +1,35 @@
+.map-switcher {
+  position: absolute;
+  bottom: 20px;          /* ✅ stick to bottom */
+  left: 50%;             /* ✅ center horizontally */
+  transform: translateX(-50%);
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  overflow: hidden;
+  z-index: 1000;
+  border: 1px solid #ddd;
+}
+
+.map-switcher button {
+  padding: 8px 18px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.2s ease;
+}
+
+.map-switcher button:hover {
+  background: #eee;
+}
+
+.map-switcher button.active {
+  background: white;
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid #007bff; /* highlight active tab */
+}

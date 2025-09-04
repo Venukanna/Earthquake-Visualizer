@@ -1,0 +1,24 @@
+.filters {
+  background: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.filters h3 {
+  flex: 1 1 100%;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.filters input,
+.filters select {
+  padding: 5px;
+  margin-top: 5px;
+}

@@ -1,0 +1,64 @@
+
+
+
+.sidebar {
+  padding: 1rem;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sidebar h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.filters {
+  margin-bottom: 1rem;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.filters input[type="text"] {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters input[type="range"] {
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+.filters select {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.3rem;
+  border-radius: 4px;
+}
+
+.quake-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.quake-item {
+  padding: 0.6rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.quake-item:hover {
+  background: #eee;
+}

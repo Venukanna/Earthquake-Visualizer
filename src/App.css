@@ -1,0 +1,120 @@
+/* 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.loading,
+.error {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  min-height: 0; 
+}
+ */
+
+ /* General App */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  gap: 16px;
+}
+
+/* Loading & Error Notifications */
+.loading,
+.error {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Footer always at bottom */
+footer {
+  margin-top: auto;
+}
+
+/* Simulate Button */
+.simulate-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* Desktop Layout */
+@media (min-width: 1024px) {
+  .main-content {
+    flex-direction: row;
+  }
+}
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main-content {
+    flex-direction: column;
+    padding: 12px;
+  }
+}
+
+/* Mobile Layout */
+@media (max-width: 767px) {
+  .main-content {
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+  }
+
+  /* Reduce header/menu size */
+  header {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* Stack controls */
+  .controls {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  /* Simulate button smaller */
+  .simulate-btn {
+    bottom: 60px;
+    right: 12px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}

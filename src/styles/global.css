@@ -1,0 +1,125 @@
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 70vh;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .leaflet-container { height: 60vh; }
+} */
+
+/* Global Styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+/* Map container */
+.leaflet-container {
+  width: 100%;
+  height: 70vh; /* default desktop height */
+  border-radius: 8px;
+}
+
+/* Layout Wrapper */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row; /* desktop default */
+  gap: 16px;
+  flex-wrap: wrap; /* wrap items if screen is smaller */
+  padding: 16px;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Buttons */
+.simulate-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* Loading & Error */
+.loading,
+.error {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Responsive Map Heights */
+@media (max-width: 1024px) {
+  .leaflet-container { height: 65vh; }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+  }
+  .leaflet-container { height: 60vh; }
+  header {
+    font-size: 16px;
+    padding: 12px;
+  }
+  .controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .simulate-btn {
+    bottom: 60px;
+    right: 16px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 8px;
+    gap: 8px;
+  }
+  .leaflet-container { height: 55vh; }
+  header {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .simulate-btn {
+    bottom: 50px;
+    right: 12px;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
