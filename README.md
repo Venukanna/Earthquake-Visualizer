@@ -58,11 +58,12 @@ The project was built for the user persona **Casey**, a Geography student, to un
 
 ---
 
-## 🤖 AI Support (Level 1 – 50%)  
+## 🤖 AI Support 
 I used **ChatGPT** to:  
 - Plan the application structure  
 - Fix errors and improve responsiveness   
 - Draft and refine this README  
+  https://chatgpt.com/share/68b96e1d-7950-8010-bb55-7d74509eae9b
 
 ---
 
