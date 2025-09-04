@@ -11,6 +11,9 @@ The project was built for the user persona **Casey**, a Geography student, to un
 ## 💻 Source Code  
 🔗 [GitHub Repository](https://github.com/Venukanna/Earthquake-Visualizer.git)  
 
+[📹 Video Demonstration (Google Drive)](https://drive.google.com/file/d/170CvQDmzupTEOuZq2ZzRw0W4e3Gphlg7/view?usp=sharing)  
+
+
 ---
 
 ## 👤 User Person
@@ -63,15 +66,15 @@ I used **ChatGPT** to:
 - Plan the application structure  
 - Fix errors and improve responsiveness   
 - Draft and refine this README  
-  https://chatgpt.com/share/68b96e1d-7950-8010-bb55-7d74509eae9b
+  [📄 ChatGPT Conversation link](https://chatgpt.com/share/68b96e1d-7950-8010-bb55-7d74509eae9b)
 
 ---
 
 ## 📊 Evaluation Levels  
 
 - **Level 1 (50%)** – AI-assisted development ✅  
-- **Level 2 (30%)** – Working application deployed on Netlify ✅  
-- **Level 3 (20%)** – Code shared on GitHub with README ✅  
+- **Level 2 (30%)** – Working application deployed on Netlify ✅ ([View Deployment](https://earthquake-visualizerr.netlify.app/))  
+- **Level 3 (20%)** – Code shared on GitHub with README ✅ and [📹 Video Demonstration (Google Drive)](https://drive.google.com/file/d/170CvQDmzupTEOuZq2ZzRw0W4e3Gphlg7/view?usp=sharing)  
 
 ---
 
@@ -89,7 +92,3 @@ I used **ChatGPT** to:
 - Dark/Light mode  
 - Historical earthquake dataset integration  
 - Advanced analytics (heatmaps, clustering, intensity zones)  
-
----
-
-  
